@@ -7,7 +7,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            background: #0a1e47;
+            background: linear-gradient(135deg, #8257e6, #e83e8c);
             color: white;
         }
 
@@ -184,7 +184,7 @@
 
         .game-description {
             width: 100vw;
-            background: #061537;
+            background: linear-gradient(135deg, #8257e6, #e83e8c);
             margin-left: calc(-50vw + 50%);
             margin-right: calc(-50vw + 50%);
             margin-top: 40px;
@@ -221,7 +221,7 @@
         }
 
         .votes {
-            color: #999;
+            color:white;
             font-size: 16px;
         }
 
@@ -263,7 +263,7 @@
         }
 
         .controls ul li {
-            color: #999;
+            color:white;
             font-size: 16px;
             margin-bottom: 5px;
         }
@@ -311,6 +311,7 @@
             line-height: 1.6;
             margin-bottom: 20px;
             text-align: justify;
+            color: white;
         }
 
         
