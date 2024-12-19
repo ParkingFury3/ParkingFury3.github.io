@@ -160,13 +160,7 @@
         });
 
         
-        document.querySelectorAll('.game-card').forEach(card => {
-            card.addEventListener('click', function(e) {
-                e.preventDefault(); 
-                const title = this.querySelector('.game-card-title').textContent;
-                alert(`You clicked: ${title}`); 
-            });
-        });
+        
 
         
         const fullscreenBtn = document.querySelector('.fullscreen-btn');
